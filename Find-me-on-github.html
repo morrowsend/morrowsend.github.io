@@ -7,7 +7,28 @@
   <h1>GitHub Pages → Repository</h1>
   <p>Drag the link below to your bookmarks bar:</p>
   <p>
-    <a href="javascript:(function(){const host=location.hostname;const path=location.pathname.split('/').filter(Boolean);if(host.endsWith('github.io')&&path.length>0){const user=host.split('.')[0];const repo=path[0];window.location.href=`https://github.com/${user}/${repo}`;}else{alert('Not a github.io project page or missing repo name.');}})()">Go to GitHub Repo</a>
+    <a href="javascript:(function(){
+  const host = location.hostname;
+  const path = location.pathname.split('/').filter(Boolean);
+  if (host.endsWith('github.io') && path.length > 0) {
+    const user = host.split('.')[0];
+    const repo = path[0];
+    const repoUrl = `https://github.com/${user}/${repo}`;
+    fetch(repoUrl, {method:'HEAD'})
+      .then(res => {
+        if (res.ok) {
+          location.href = repoUrl;
+        } else {
+          location.href = `https://github.com/${user}`;
+        }
+      })
+      .catch(() => {
+        location.href = `https://github.com/${user}`;
+      });
+  } else {
+    alert('Not a github.io project page or missing repo name.');
+  }
+})();">Go to GitHub Repo</a>
   </p>
   <p>Repo for this avaialable here: https://github.com/morrowsend/Find-me-on-github/<p>
 </body>
