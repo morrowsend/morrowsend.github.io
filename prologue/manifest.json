@@ -1,7 +1,7 @@
 {
   "siteName": "morrowsend's blog",
   "description": "Test site for Prologue static blog engine",
-  "themeId": "grid",
+  "themeId": "minimal",
   "posts": [
     {
       "slug": "first-post-hooq",
