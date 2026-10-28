@@ -1,7 +1,7 @@
 {
   "siteName": "morrowsend's blog",
-  "description": "",
-  "themeId": "editorial",
+  "description": "Test site for Prologue static blog engine",
+  "themeId": "sidebar",
   "posts": [],
   "pages": [],
   "giscus": null
