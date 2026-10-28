@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--
+  Content-Security-Policy for the editor. This is what stops any foreign script from
+  running here (and so from touching your GitHub token):
+    script-src 'self'     only the files in this repo may run as scripts; no inline scripts, no eval, no CDNs
+    connect-src           the editor may only talk to api.github.com
+    form-action/base-uri  locked down so forms and <base> tricks can't redirect anything
+  style-src-attr 'unsafe-inline' is only for the math preview (KaTeX sizes things with style attributes).
+-->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; frame-src https://www.youtube-nocookie.com; connect-src https://api.github.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prologue</title>
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
