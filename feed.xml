@@ -5,6 +5,12 @@
   <link>https://morrowsend.github.io/</link>
   <description>Test site for Prologue static blog engine</description>
   <generator>Prologue</generator>
-
+  <item>
+    <title>First Post!!!</title>
+    <link>https://morrowsend.github.io/posts/first-post-hooq.html</link>
+    <guid>https://morrowsend.github.io/posts/first-post-hooq.html</guid>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    <description>Advertisement :) pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like t</description>
+  </item>
 </channel>
 </rss>
