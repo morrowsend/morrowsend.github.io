@@ -10,6 +10,12 @@
       "excerpt": "Advertisement :) pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like t"
     }
   ],
-  "pages": [],
+  "pages": [
+    {
+      "slug": "firstpage",
+      "title": "My First Page",
+      "nav": true
+    }
+  ],
   "giscus": null
 }
