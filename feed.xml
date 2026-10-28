@@ -6,6 +6,13 @@
   <description>Test site for Prologue static blog engine</description>
   <generator>Prologue</generator>
   <item>
+    <title>youtube embedding tests:</title>
+    <link>https://morrowsend.github.io/posts/youtube-embedding-tests-kk1r.html</link>
+    <guid>https://morrowsend.github.io/posts/youtube-embedding-tests-kk1r.html</guid>
+    <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+    <description>This is my second post!!!! Watch link test: Shorts link test: Embed test:</description>
+  </item>
+  <item>
     <title>First Post!!!</title>
     <link>https://morrowsend.github.io/posts/first-post-hooq.html</link>
     <guid>https://morrowsend.github.io/posts/first-post-hooq.html</guid>
