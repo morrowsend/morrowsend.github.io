@@ -2,7 +2,14 @@
   "siteName": "morrowsend's blog",
   "description": "Test site for Prologue static blog engine",
   "themeId": "sidebar",
-  "posts": [],
+  "posts": [
+    {
+      "slug": "first-post-hooq",
+      "title": "First Post!!!",
+      "date": "2026-10-28",
+      "excerpt": "Advertisement :) pica - high quality and fast image resize in browser. babelfish - developer friendly i18n with plurals support and easy syntax. You will like t"
+    }
+  ],
   "pages": [],
   "giscus": null
 }
